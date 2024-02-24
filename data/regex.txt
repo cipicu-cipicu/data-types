@@ -1,0 +1,8 @@
+true
+23A5
+50
+47
+100.75
+false
+true
+M2J 2C4

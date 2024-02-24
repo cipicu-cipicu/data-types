@@ -8,7 +8,8 @@ public class FileParser {
 
 		BufferedReader reader;
 
-		reader = new BufferedReader(new FileReader("C:\\home\\eclipse-workspace\\datatypes1\\data\\sample.txt"));
+		//reader = new BufferedReader(new FileReader("C:\\home\\eclipse-workspace\\datatypes1\\data\\sample.txt"));
+		reader = new BufferedReader(new FileReader("data\\sample.txt"));
 		String line = reader.readLine();
 
 		while (line != null) {
