@@ -22,30 +22,36 @@ public class StringExamples {
 		//System.out.println("age = " + age);
 		
 		// String.join
-		String string4 = String.join("-", "Java", "is", "cool");
+		String string4 = String.join(";", "Java", "is", "cool");
 		//System.out.println(string4);
+		
+		/*
+		String string10[] = "Java;is;cool".split(";");
+		for (String part : string10 ) {
+			System.out.println("part = " + part);
+		}
+		*/
 		
 		// -----------------------------------------------------------------------------
 		// Checking of strings are equals - we use equals method instead of ==
-		/*
-		System.out.println("string1 == string2: " + (string1 == string2));
-		System.out.println("string1.equals(string2): " + string1.equals(string2));
-		*/
+		//System.out.println("string1 == string2: " + (string1 == string2));
+		//System.out.println("string1.equals(string2): " + string1.equals(string2));
 		
 		String string5 = "Hello";
-		System.out.println("string1 == string5: " + (string1 == string5));
+		//System.out.println("string1 == string5: " + (string1 == string5));
 		
 		// we can also ignore case (upper case/lower case)
 		String string6 = "hello";
-		System.out.println("string5.equals(string6): " + string5.equals(string6));
-		System.out.println("string5.equalsIgnoreCase(string6): " + string5.equalsIgnoreCase(string6));
+		//System.out.println("string5.equals(string6): " + string5.equals(string6));
+		//System.out.println("string5.equalsIgnoreCase(string6): " + string5.equalsIgnoreCase(string6));
 		
 		// -----------------------------------------------------------------------------
 		// The String API (methods) - String has more than 50 methods
 		// Here are some common ones used:
 		//  length(); startsWith(); endsWith(); indexOf(); lastIndexOf(); substring();
 		//  toLowerCase(); toUpperCase(); trim();
-		
+		String string11 = "     Hello      ";
+		System.out.println("[" + string11.trim() + "]");
 		
 	}
 
